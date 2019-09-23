@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/idHTxCodBarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo de Barras"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingBottom="10dp"
+        android:textColor="#f20000"/>
+
+    <Button
+        android:id="@+id/idHBtManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIGITAR"
+        android:textSize="@dimen/sizeButtonHome"/>
+
+    <Button
+        android:id="@+id/idHBtUnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIDADE"
+        android:textSize="@dimen/sizeButtonHome"/>
+
+    <Button
+        android:id="@+id/idHBtQtde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUANTIDADE"
+        android:textSize="@dimen/sizeButtonHome"/>
+
+    <Button
+        android:id="@+id/idHBtExportacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPORTAR"
+        android:textSize="@dimen/sizeButtonHome"/>
+
+    <Button
+        android:id="@+id/idHBtLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIMPAR"
+        android:textSize="@dimen/sizeButtonHome"/>
+
+    <ListView
+        android:id="@+id/idHLsCodigos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
